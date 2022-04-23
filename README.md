@@ -2,6 +2,8 @@
 
 # Getting Started with Create React App
 
+Firebase / Cloudinary 차ㅁ고ㄹ것!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
