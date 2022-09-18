@@ -16,9 +16,15 @@ const SearchHeader = memo(({ onSearch }) => {
       handleSearch();
     }
   };
+
+  const moveToUrl = (url) => {
+    console.log(`${url}`);
+    window.location.replace(`${url}`);
+  };
+
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <div className={styles.logo} onClick={()=>moveToUrl('https://youtube.menofsillim.club/')}>
         <img className={styles.img} src="/images/logo.png" alt="logo" />
         <h1 className={styles.title}>Youtube</h1>
       </div>
